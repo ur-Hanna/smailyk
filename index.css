@@ -1,0 +1,15 @@
+:root {
+  --light: #FfEE98;
+  --accent-yellow: #FAD705;
+  --accent-orange: #E4472A;
+  --dark-gray: #2B2B2B;
+
+
+}
+
+/* СКИДАННЯ СТИЛІВ */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
