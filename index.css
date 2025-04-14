@@ -1,10 +1,8 @@
 :root {
-  --light: #FfEE98;
+  --background-color: #FfEE98;
   --accent-yellow: #FAD705;
-  --accent-orange: #E4472A;
-  --dark-gray: #2B2B2B;
-
-
+  --accent-color: #E4472A;
+  --text-color: #1a1a1a;
 }
 
 /* СКИДАННЯ СТИЛІВ */
