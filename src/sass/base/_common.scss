@@ -1,0 +1,25 @@
+body {
+  font-family: 'Neucha', 'Comic Sans MS', cursive;
+  font-style: normal;
+  font-weight: inherit;
+  background-color: $backgroundColor;
+  color: $mainTextColor;
+}
+
+p {
+  font-family: 'Nunito', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: $mainTextColor;
+}
+
+/* links */
+.link {
+  // color: $;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $linkActiveColor;
+  }
+}
