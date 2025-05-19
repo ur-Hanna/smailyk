@@ -1,0 +1,22 @@
+{
+  "name": "smailyk",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://github.com/ur-Hanna/smailyk",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /smailyk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ur-Hanna/smailyk.git"
+  },
+  "keywords": [],
+  "author": "Hanna Rosytiuk <hanna.mainmail@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ur-Hanna/smailyk/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
+  }
+}
