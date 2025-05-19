@@ -1,2 +1,80 @@
 @charset "UTF-8";
-/*# sourceMappingURL=main.css.map */
+body {
+  font-family: "Neucha", "Comic Sans MS", cursive;
+  font-style: normal;
+  font-weight: inherit;
+  background-color: #ffEE98;
+  color: #1a1a1a;
+}
+
+p {
+  font-family: "Nunito", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+/* links */
+.link {
+  text-decoration: none;
+}
+.link:hover, .link:focus {
+  color: #E4472A;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  align-content: center;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* хедер */
+/* СКИДАННЯ СТИЛІВ *//*# sourceMappingURL=main.css.map */
