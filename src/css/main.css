@@ -77,4 +77,11 @@ li {
 }
 
 /* хедер */
+.header {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  background-image: url(../../images/headerLogo.png);
+}
+
 /* СКИДАННЯ СТИЛІВ *//*# sourceMappingURL=main.css.map */
