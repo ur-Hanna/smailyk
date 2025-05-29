@@ -82,6 +82,9 @@ li {
   height: auto;
   padding: 20px 0;
   background-image: url(../../images/headerLogo.png);
+  background-position-y: center;
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
 }
 
 /* СКИДАННЯ СТИЛІВ *//*# sourceMappingURL=main.css.map */
