@@ -1,25 +1,15 @@
 @charset "UTF-8";
-body {
-  font-family: "Neucha", "Comic Sans MS", cursive;
-  font-style: normal;
-  font-weight: inherit;
-  background-color: #ffEE98;
-  color: #1a1a1a;
-}
-
-p {
-  font-family: "Nunito", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  color: #1a1a1a;
-}
-
-/* links */
-.link {
-  text-decoration: none;
-}
-.link:hover, .link:focus {
-  color: #E4472A;
+.hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .container {
@@ -74,6 +64,29 @@ ul {
 
 li {
   list-style: none;
+}
+
+body {
+  font-family: "Neucha", "Comic Sans MS", cursive;
+  font-style: normal;
+  font-weight: inherit;
+  background-color: #ffEE98;
+  color: #1a1a1a;
+}
+
+p {
+  font-family: "Nunito", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+/* links */
+.link {
+  text-decoration: none;
+}
+.link:hover, .link:focus {
+  color: #E4472A;
 }
 
 /* хедер */

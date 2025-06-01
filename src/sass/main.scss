@@ -1,11 +1,13 @@
 @import './utils/vars.scss';
+@import './utils/hidden.scss';
 
-@import './base/common.scss';
 @import './base/container.scss';
 @import './base/reset.scss';
+@import './base/common.scss';
 
 @import './components/header.scss';
 @import './components/logo.scss';
+@import './components/footer.scss';
 
 
 // @charset "UTF-8";
