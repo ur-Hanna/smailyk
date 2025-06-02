@@ -96,4 +96,11 @@ p {
   padding: 20px 0;
 }
 
+.hero {
+  background-image: url(../../images/smailyk.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* СКИДАННЯ СТИЛІВ *//*# sourceMappingURL=main.css.map */
